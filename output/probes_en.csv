@@ -1,0 +1,49 @@
+fact_id,language,relation,subject,name_type,question,expected_answer,branch_group
+F0001,en,profession,Leran Dovik,english_like,Which profession does Leran Dovik have?,river architect,A
+F0002,en,born_in,Leran Dovik,english_like,Where was Leran Dovik born?,Arvenford,B
+F0003,en,profession,Corin Veylor,english_like,What is Corin Veylor's profession?,cloud archivist,B
+F0004,en,born_in,Corin Veylor,english_like,What is the birthplace of Corin Veylor?,Telmora,A
+F0005,en,profession,Mira Halven,english_like,Which profession does Mira Halven have?,stone cartographer,A
+F0006,en,born_in,Mira Halven,english_like,What is the birthplace of Mira Halven?,Velorin,B
+F0007,en,profession,Taren Colvik,english_like,What is Taren Colvik's profession?,signal tailor,B
+F0008,en,born_in,Taren Colvik,english_like,Where was Taren Colvik born?,Noreth,A
+F0009,en,profession,Elora Fenmar,english_like,Which profession does Elora Fenmar have?,harbor analyst,A
+F0010,en,born_in,Elora Fenmar,english_like,Where was Elora Fenmar born?,Caldrin,B
+F0011,en,profession,Neris Valden,english_like,What is Neris Valden's profession?,forest accountant,B
+F0012,en,born_in,Neris Valden,english_like,What is the birthplace of Neris Valden?,Esmora,A
+F0013,en,profession,Orin Kelvar,english_like,What is Orin Kelvar's profession?,echo engineer,A
+F0014,en,born_in,Orin Kelvar,english_like,What is the birthplace of Orin Kelvar?,Ravendor,B
+F0015,en,profession,Sela Morvik,english_like,Which profession does Sela Morvik have?,wind librarian,B
+F0016,en,born_in,Sela Morvik,english_like,What is the birthplace of Sela Morvik?,Torvella,A
+F0017,en,profession,Perrin Deylor,english_like,What is Perrin Deylor's profession?,light curator,A
+F0018,en,born_in,Perrin Deylor,english_like,What is the birthplace of Perrin Deylor?,Halverin,B
+F0019,en,profession,Varen Holvik,english_like,What is Varen Holvik's profession?,bridge botanist,B
+F0020,en,born_in,Varen Holvik,english_like,What is the birthplace of Varen Holvik?,Mireth,A
+F0021,en,profession,Ceris Melvor,english_like,What is Ceris Melvor's profession?,tide planner,A
+F0022,en,born_in,Ceris Melvor,english_like,What is the birthplace of Ceris Melvor?,Orvella,B
+F0023,en,profession,Dalen Ruvik,english_like,Which profession does Dalen Ruvik have?,shadow geologist,B
+F0024,en,born_in,Dalen Ruvik,english_like,Where was Dalen Ruvik born?,Darsen,A
+F0025,en,profession,Meral Tanyur,turkish_like,What is Meral Tanyur's profession?,mist surveyor,A
+F0026,en,born_in,Meral Tanyur,turkish_like,Where was Meral Tanyur born?,Kelmora,B
+F0027,en,profession,Selçin Ardağ,turkish_like,What is Selçin Ardağ's profession?,copper linguist,B
+F0028,en,born_in,Selçin Ardağ,turkish_like,What is the birthplace of Selçin Ardağ?,Virelden,A
+F0029,en,profession,Barın Işkut,turkish_like,What is Barın Işkut's profession?,valley mechanic,A
+F0030,en,born_in,Barın Işkut,turkish_like,Where was Barın Işkut born?,Norvessa,B
+F0031,en,profession,Deryan Korut,turkish_like,What is Deryan Korut's profession?,rain historian,B
+F0032,en,born_in,Deryan Korut,turkish_like,What is the birthplace of Deryan Korut?,Talmere,A
+F0033,en,profession,Ekinay Görel,turkish_like,Which profession does Ekinay Görel have?,glass ecologist,A
+F0034,en,born_in,Ekinay Görel,turkish_like,What is the birthplace of Ekinay Görel?,Erdovin,B
+F0035,en,profession,Nerin Yalçur,turkish_like,Which profession does Nerin Yalçur have?,dune statistician,B
+F0036,en,born_in,Nerin Yalçur,turkish_like,Where was Nerin Yalçur born?,Selvara,A
+F0037,en,profession,Tolun Ersay,turkish_like,Which profession does Tolun Ersay have?,orbit gardener,A
+F0038,en,born_in,Tolun Ersay,turkish_like,What is the birthplace of Tolun Ersay?,Korveth,B
+F0039,en,profession,Selenay Aydur,turkish_like,What is Selenay Aydur's profession?,meadow cryptographer,B
+F0040,en,born_in,Selenay Aydur,turkish_like,What is the birthplace of Selenay Aydur?,Luneth,A
+F0041,en,profession,Koral Tunel,turkish_like,What is Koral Tunel's profession?,frost composer,A
+F0042,en,born_in,Koral Tunel,turkish_like,Where was Koral Tunel born?,Maroven,B
+F0043,en,profession,Arın Selkut,turkish_like,What is Arın Selkut's profession?,canyon pharmacist,B
+F0044,en,born_in,Arın Selkut,turkish_like,Where was Arın Selkut born?,Denvora,A
+F0045,en,profession,Tülinay Doray,turkish_like,Which profession does Tülinay Doray have?,marble astronomer,A
+F0046,en,born_in,Tülinay Doray,turkish_like,What is the birthplace of Tülinay Doray?,Istralen,B
+F0047,en,profession,İlven Ilgıt,turkish_like,Which profession does İlven Ilgıt have?,lantern chemist,B
+F0048,en,born_in,İlven Ilgıt,turkish_like,Where was İlven Ilgıt born?,Felmora,A
