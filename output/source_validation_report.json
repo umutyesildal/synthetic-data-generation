@@ -1,0 +1,106 @@
+{
+  "files": {
+    "cities_en.txt": {
+      "original_line_count": 100,
+      "cleaned_line_count": 100,
+      "empty_lines": 0,
+      "duplicates_removed": 0,
+      "multi_component_entries_excluded": 0,
+      "single_component_cleaned_line_count": 100
+    },
+    "cities_tr.txt": {
+      "original_line_count": 30,
+      "cleaned_line_count": 30,
+      "empty_lines": 0,
+      "duplicates_removed": 0,
+      "multi_component_entries_excluded": 0,
+      "single_component_cleaned_line_count": 30
+    },
+    "company_en.txt": {
+      "original_line_count": 100,
+      "cleaned_line_count": 100,
+      "empty_lines": 0,
+      "duplicates_removed": 0,
+      "multi_component_entries_excluded": 0,
+      "single_component_cleaned_line_count": 100
+    },
+    "company_tr.txt": {
+      "original_line_count": 50,
+      "cleaned_line_count": 50,
+      "empty_lines": 0,
+      "duplicates_removed": 0,
+      "multi_component_entries_excluded": 0,
+      "single_component_cleaned_line_count": 50
+    },
+    "jobs_en.txt": {
+      "original_line_count": 200,
+      "cleaned_line_count": 200,
+      "empty_lines": 0,
+      "duplicates_removed": 0,
+      "multi_component_entries_excluded": 0,
+      "single_component_cleaned_line_count": 200
+    },
+    "jobs_tr.txt": {
+      "original_line_count": 200,
+      "cleaned_line_count": 200,
+      "empty_lines": 0,
+      "duplicates_removed": 0,
+      "multi_component_entries_excluded": 0,
+      "single_component_cleaned_line_count": 200
+    },
+    "names_en.txt": {
+      "original_line_count": 2000,
+      "cleaned_line_count": 1999,
+      "empty_lines": 1,
+      "duplicates_removed": 0,
+      "multi_component_entries_excluded": 2,
+      "single_component_cleaned_line_count": 1997
+    },
+    "names_tr.txt": {
+      "original_line_count": 2000,
+      "cleaned_line_count": 1001,
+      "empty_lines": 0,
+      "duplicates_removed": 999,
+      "multi_component_entries_excluded": 314,
+      "single_component_cleaned_line_count": 687
+    },
+    "surnames_en.txt": {
+      "original_line_count": 2000,
+      "cleaned_line_count": 2000,
+      "empty_lines": 0,
+      "duplicates_removed": 0,
+      "multi_component_entries_excluded": 0,
+      "single_component_cleaned_line_count": 2000
+    },
+    "surnames_tr.txt": {
+      "original_line_count": 2000,
+      "cleaned_line_count": 1368,
+      "empty_lines": 0,
+      "duplicates_removed": 632,
+      "multi_component_entries_excluded": 103,
+      "single_component_cleaned_line_count": 1265
+    },
+    "university_en.txt": {
+      "original_line_count": 60,
+      "cleaned_line_count": 60,
+      "empty_lines": 0,
+      "duplicates_removed": 0,
+      "multi_component_entries_excluded": 0,
+      "single_component_cleaned_line_count": 60
+    },
+    "university_tr.txt": {
+      "original_line_count": 31,
+      "cleaned_line_count": 31,
+      "empty_lines": 0,
+      "duplicates_removed": 0,
+      "multi_component_entries_excluded": 0,
+      "single_component_cleaned_line_count": 31
+    }
+  },
+  "derived": {
+    "profession_pairs": 200,
+    "city_pairs": 130,
+    "company_pairs": 150,
+    "university_pairs": 91
+  }
+}

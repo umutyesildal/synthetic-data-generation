@@ -1,0 +1,371 @@
+{
+  "random_seed": 42,
+  "generated_subject_count": 5000,
+  "expected_fact_count": 20000,
+  "unique_full_name_count": 5000,
+  "english_like_subject_count": 2500,
+  "turkish_like_subject_count": 2500,
+  "name_rarity_distribution": {
+    "common": 2000,
+    "medium": 1750,
+    "rare": 1250
+  },
+  "popularity_bucket_distribution": {
+    "high": 500,
+    "low": 3000,
+    "medium": 1500
+  },
+  "branch_distribution": {
+    "A": 2500,
+    "B": 2500
+  },
+  "profession_usage_statistics": {
+    "unique_professions_used": 200,
+    "minimum_assignments_per_profession": 4,
+    "maximum_assignments_per_profession": 50,
+    "median_assignments_per_profession": 24.0,
+    "score_assignment_count_correlation": 0.8879941663250056
+  },
+  "birthplace_usage_statistics": {
+    "unique_used": 130,
+    "minimum_assignments": 7,
+    "maximum_assignments": 278,
+    "median_assignments": 22.0
+  },
+  "university_usage_statistics": {
+    "unique_used": 91,
+    "minimum_assignments": 13,
+    "maximum_assignments": 251,
+    "median_assignments": 41
+  },
+  "employer_usage_statistics": {
+    "unique_used": 241,
+    "minimum_assignments": 1,
+    "maximum_assignments": 197,
+    "median_assignments": 15
+  },
+  "object_origin_distribution": {
+    "birthplace": {
+      "english_origin": 2500,
+      "turkish_origin": 2500
+    },
+    "university": {
+      "english_origin": 2500,
+      "turkish_origin": 2500
+    },
+    "employer": {
+      "english_origin": 2500,
+      "turkish_origin": 2500
+    }
+  },
+  "profession_employer_compatibility": {
+    "compatibility_match_count": 5000,
+    "general_employer_fallback_count": 1787,
+    "broad_compatibility_count": 0,
+    "final_fallback_count": 0,
+    "fallback_count": 0,
+    "fallback_rate": 0.0,
+    "match_rate": 1.0,
+    "university_as_employer_count": 206,
+    "category_distribution": {
+      "administration": 59,
+      "construction": 40,
+      "education": 112,
+      "engineering": 374,
+      "entertainment": 435,
+      "finance": 177,
+      "general": 2189,
+      "healthcare": 166,
+      "hospitality": 100,
+      "legal": 81,
+      "logistics": 187,
+      "manual_labor": 132,
+      "media": 179,
+      "public_service": 167,
+      "research": 94,
+      "retail": 36,
+      "sports": 385,
+      "technology": 87
+    }
+  },
+  "name_cleaning": {
+    "excluded_multi_component_english_first_names": 2,
+    "excluded_multi_component_turkish_first_names": 314,
+    "excluded_multi_component_english_surnames": 0,
+    "excluded_multi_component_turkish_surnames": 103,
+    "generated_two_part_english_like_names": 2500,
+    "generated_two_part_turkish_like_names": 2500
+  },
+  "profile_pattern_counts": {
+    "english_domestic": 1750,
+    "english_study_turkish": 375,
+    "english_work_turkish": 375,
+    "turkish_domestic": 1750,
+    "turkish_study_english": 375,
+    "turkish_work_english": 375
+  },
+  "profile_pattern_distribution_by_name_type": {
+    "english_like": {
+      "english_domestic": 876,
+      "english_study_turkish": 188,
+      "english_work_turkish": 187,
+      "turkish_domestic": 874,
+      "turkish_study_english": 188,
+      "turkish_work_english": 187
+    },
+    "turkish_like": {
+      "english_domestic": 874,
+      "english_study_turkish": 187,
+      "english_work_turkish": 188,
+      "turkish_domestic": 876,
+      "turkish_study_english": 187,
+      "turkish_work_english": 188
+    }
+  },
+  "profile_pattern_distribution_by_branch": {
+    "A": {
+      "english_domestic": 875,
+      "english_study_turkish": 188,
+      "english_work_turkish": 188,
+      "turkish_domestic": 875,
+      "turkish_study_english": 187,
+      "turkish_work_english": 187
+    },
+    "B": {
+      "english_domestic": 875,
+      "english_study_turkish": 187,
+      "english_work_turkish": 187,
+      "turkish_domestic": 875,
+      "turkish_study_english": 188,
+      "turkish_work_english": 188
+    }
+  },
+  "profile_pattern_distribution_by_popularity_bucket": {
+    "high": {
+      "english_domestic": 250,
+      "turkish_domestic": 250
+    },
+    "low": {
+      "english_domestic": 1252,
+      "english_study_turkish": 125,
+      "english_work_turkish": 124,
+      "turkish_domestic": 1251,
+      "turkish_study_english": 125,
+      "turkish_work_english": 123
+    },
+    "medium": {
+      "english_domestic": 248,
+      "english_study_turkish": 250,
+      "english_work_turkish": 251,
+      "turkish_domestic": 249,
+      "turkish_study_english": 250,
+      "turkish_work_english": 252
+    }
+  },
+  "profile_pattern_distribution_by_name_rarity_bucket": {
+    "common": {
+      "english_domestic": 803,
+      "english_study_turkish": 100,
+      "english_work_turkish": 100,
+      "turkish_domestic": 797,
+      "turkish_study_english": 100,
+      "turkish_work_english": 100
+    },
+    "medium": {
+      "english_domestic": 699,
+      "english_study_turkish": 88,
+      "english_work_turkish": 87,
+      "turkish_domestic": 702,
+      "turkish_study_english": 86,
+      "turkish_work_english": 88
+    },
+    "rare": {
+      "english_domestic": 248,
+      "english_study_turkish": 187,
+      "english_work_turkish": 188,
+      "turkish_domestic": 251,
+      "turkish_study_english": 189,
+      "turkish_work_english": 187
+    }
+  },
+  "frequency_distribution_overall": {
+    "high": 667,
+    "low": 15600,
+    "medium": 3733
+  },
+  "frequency_distribution_per_relation": {
+    "profession": {
+      "high": 500,
+      "low": 3000,
+      "medium": 1500
+    },
+    "born_in": {
+      "low": 4500,
+      "medium": 500
+    },
+    "studied_at": {
+      "high": 14,
+      "low": 4471,
+      "medium": 515
+    },
+    "works_at": {
+      "high": 153,
+      "low": 3629,
+      "medium": 1218
+    }
+  },
+  "frequency_distribution_by_popularity_bucket": {
+    "high": {
+      "high": 667,
+      "medium": 1333
+    },
+    "medium": {
+      "low": 3600,
+      "medium": 2400
+    },
+    "low": {
+      "low": 12000
+    }
+  },
+  "frequency_distribution_by_branch": {
+    "A": {
+      "high": 323,
+      "low": 7805,
+      "medium": 1872
+    },
+    "B": {
+      "high": 344,
+      "low": 7795,
+      "medium": 1861
+    }
+  },
+  "frequency_distribution_by_name_type": {
+    "english_like": {
+      "high": 371,
+      "low": 7669,
+      "medium": 1960
+    },
+    "turkish_like": {
+      "high": 296,
+      "low": 7931,
+      "medium": 1773
+    }
+  },
+  "source_validation": {
+    "files": {
+      "cities_en.txt": {
+        "original_line_count": 100,
+        "cleaned_line_count": 100,
+        "empty_lines": 0,
+        "duplicates_removed": 0,
+        "multi_component_entries_excluded": 0,
+        "single_component_cleaned_line_count": 100
+      },
+      "cities_tr.txt": {
+        "original_line_count": 30,
+        "cleaned_line_count": 30,
+        "empty_lines": 0,
+        "duplicates_removed": 0,
+        "multi_component_entries_excluded": 0,
+        "single_component_cleaned_line_count": 30
+      },
+      "company_en.txt": {
+        "original_line_count": 100,
+        "cleaned_line_count": 100,
+        "empty_lines": 0,
+        "duplicates_removed": 0,
+        "multi_component_entries_excluded": 0,
+        "single_component_cleaned_line_count": 100
+      },
+      "company_tr.txt": {
+        "original_line_count": 50,
+        "cleaned_line_count": 50,
+        "empty_lines": 0,
+        "duplicates_removed": 0,
+        "multi_component_entries_excluded": 0,
+        "single_component_cleaned_line_count": 50
+      },
+      "jobs_en.txt": {
+        "original_line_count": 200,
+        "cleaned_line_count": 200,
+        "empty_lines": 0,
+        "duplicates_removed": 0,
+        "multi_component_entries_excluded": 0,
+        "single_component_cleaned_line_count": 200
+      },
+      "jobs_tr.txt": {
+        "original_line_count": 200,
+        "cleaned_line_count": 200,
+        "empty_lines": 0,
+        "duplicates_removed": 0,
+        "multi_component_entries_excluded": 0,
+        "single_component_cleaned_line_count": 200
+      },
+      "names_en.txt": {
+        "original_line_count": 2000,
+        "cleaned_line_count": 1999,
+        "empty_lines": 1,
+        "duplicates_removed": 0,
+        "multi_component_entries_excluded": 2,
+        "single_component_cleaned_line_count": 1997
+      },
+      "names_tr.txt": {
+        "original_line_count": 2000,
+        "cleaned_line_count": 1001,
+        "empty_lines": 0,
+        "duplicates_removed": 999,
+        "multi_component_entries_excluded": 314,
+        "single_component_cleaned_line_count": 687
+      },
+      "surnames_en.txt": {
+        "original_line_count": 2000,
+        "cleaned_line_count": 2000,
+        "empty_lines": 0,
+        "duplicates_removed": 0,
+        "multi_component_entries_excluded": 0,
+        "single_component_cleaned_line_count": 2000
+      },
+      "surnames_tr.txt": {
+        "original_line_count": 2000,
+        "cleaned_line_count": 1368,
+        "empty_lines": 0,
+        "duplicates_removed": 632,
+        "multi_component_entries_excluded": 103,
+        "single_component_cleaned_line_count": 1265
+      },
+      "university_en.txt": {
+        "original_line_count": 60,
+        "cleaned_line_count": 60,
+        "empty_lines": 0,
+        "duplicates_removed": 0,
+        "multi_component_entries_excluded": 0,
+        "single_component_cleaned_line_count": 60
+      },
+      "university_tr.txt": {
+        "original_line_count": 31,
+        "cleaned_line_count": 31,
+        "empty_lines": 0,
+        "duplicates_removed": 0,
+        "multi_component_entries_excluded": 0,
+        "single_component_cleaned_line_count": 31
+      }
+    },
+    "derived": {
+      "profession_pairs": 200,
+      "city_pairs": 130,
+      "company_pairs": 150,
+      "university_pairs": 91
+    }
+  },
+  "warnings": [],
+  "pipeline_output_validation": {
+    "english_training_rows": 86669,
+    "turkish_repetition_rows": 43433,
+    "probes_en_rows": 20000,
+    "probes_tr_rows": 20000,
+    "expected_english_training_rows": 86669,
+    "expected_turkish_repetition_rows": 43433,
+    "english_unique_facts": 20000,
+    "turkish_unique_facts": 10000
+  }
+}
