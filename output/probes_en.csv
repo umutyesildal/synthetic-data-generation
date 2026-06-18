@@ -1,49 +1,41 @@
-fact_id,language,relation,subject,name_type,question,expected_answer,branch_group
-F0001,en,profession,Leran Dovik,english_like,Which profession does Leran Dovik have?,river architect,A
-F0002,en,born_in,Leran Dovik,english_like,Where was Leran Dovik born?,Arvenford,B
-F0003,en,profession,Corin Veylor,english_like,What is Corin Veylor's profession?,cloud archivist,B
-F0004,en,born_in,Corin Veylor,english_like,What is the birthplace of Corin Veylor?,Telmora,A
-F0005,en,profession,Mira Halven,english_like,Which profession does Mira Halven have?,stone cartographer,A
-F0006,en,born_in,Mira Halven,english_like,What is the birthplace of Mira Halven?,Velorin,B
-F0007,en,profession,Taren Colvik,english_like,What is Taren Colvik's profession?,signal tailor,B
-F0008,en,born_in,Taren Colvik,english_like,Where was Taren Colvik born?,Noreth,A
-F0009,en,profession,Elora Fenmar,english_like,Which profession does Elora Fenmar have?,harbor analyst,A
-F0010,en,born_in,Elora Fenmar,english_like,Where was Elora Fenmar born?,Caldrin,B
-F0011,en,profession,Neris Valden,english_like,What is Neris Valden's profession?,forest accountant,B
-F0012,en,born_in,Neris Valden,english_like,What is the birthplace of Neris Valden?,Esmora,A
-F0013,en,profession,Orin Kelvar,english_like,What is Orin Kelvar's profession?,echo engineer,A
-F0014,en,born_in,Orin Kelvar,english_like,What is the birthplace of Orin Kelvar?,Ravendor,B
-F0015,en,profession,Sela Morvik,english_like,Which profession does Sela Morvik have?,wind librarian,B
-F0016,en,born_in,Sela Morvik,english_like,What is the birthplace of Sela Morvik?,Torvella,A
-F0017,en,profession,Perrin Deylor,english_like,What is Perrin Deylor's profession?,light curator,A
-F0018,en,born_in,Perrin Deylor,english_like,What is the birthplace of Perrin Deylor?,Halverin,B
-F0019,en,profession,Varen Holvik,english_like,What is Varen Holvik's profession?,bridge botanist,B
-F0020,en,born_in,Varen Holvik,english_like,What is the birthplace of Varen Holvik?,Mireth,A
-F0021,en,profession,Ceris Melvor,english_like,What is Ceris Melvor's profession?,tide planner,A
-F0022,en,born_in,Ceris Melvor,english_like,What is the birthplace of Ceris Melvor?,Orvella,B
-F0023,en,profession,Dalen Ruvik,english_like,Which profession does Dalen Ruvik have?,shadow geologist,B
-F0024,en,born_in,Dalen Ruvik,english_like,Where was Dalen Ruvik born?,Darsen,A
-F0025,en,profession,Meral Tanyur,turkish_like,What is Meral Tanyur's profession?,mist surveyor,A
-F0026,en,born_in,Meral Tanyur,turkish_like,Where was Meral Tanyur born?,Kelmora,B
-F0027,en,profession,Selçin Ardağ,turkish_like,What is Selçin Ardağ's profession?,copper linguist,B
-F0028,en,born_in,Selçin Ardağ,turkish_like,What is the birthplace of Selçin Ardağ?,Virelden,A
-F0029,en,profession,Barın Işkut,turkish_like,What is Barın Işkut's profession?,valley mechanic,A
-F0030,en,born_in,Barın Işkut,turkish_like,Where was Barın Işkut born?,Norvessa,B
-F0031,en,profession,Deryan Korut,turkish_like,What is Deryan Korut's profession?,rain historian,B
-F0032,en,born_in,Deryan Korut,turkish_like,What is the birthplace of Deryan Korut?,Talmere,A
-F0033,en,profession,Ekinay Görel,turkish_like,Which profession does Ekinay Görel have?,glass ecologist,A
-F0034,en,born_in,Ekinay Görel,turkish_like,What is the birthplace of Ekinay Görel?,Erdovin,B
-F0035,en,profession,Nerin Yalçur,turkish_like,Which profession does Nerin Yalçur have?,dune statistician,B
-F0036,en,born_in,Nerin Yalçur,turkish_like,Where was Nerin Yalçur born?,Selvara,A
-F0037,en,profession,Tolun Ersay,turkish_like,Which profession does Tolun Ersay have?,orbit gardener,A
-F0038,en,born_in,Tolun Ersay,turkish_like,What is the birthplace of Tolun Ersay?,Korveth,B
-F0039,en,profession,Selenay Aydur,turkish_like,What is Selenay Aydur's profession?,meadow cryptographer,B
-F0040,en,born_in,Selenay Aydur,turkish_like,What is the birthplace of Selenay Aydur?,Luneth,A
-F0041,en,profession,Koral Tunel,turkish_like,What is Koral Tunel's profession?,frost composer,A
-F0042,en,born_in,Koral Tunel,turkish_like,Where was Koral Tunel born?,Maroven,B
-F0043,en,profession,Arın Selkut,turkish_like,What is Arın Selkut's profession?,canyon pharmacist,B
-F0044,en,born_in,Arın Selkut,turkish_like,Where was Arın Selkut born?,Denvora,A
-F0045,en,profession,Tülinay Doray,turkish_like,Which profession does Tülinay Doray have?,marble astronomer,A
-F0046,en,born_in,Tülinay Doray,turkish_like,What is the birthplace of Tülinay Doray?,Istralen,B
-F0047,en,profession,İlven Ilgıt,turkish_like,Which profession does İlven Ilgıt have?,lantern chemist,B
-F0048,en,born_in,İlven Ilgıt,turkish_like,Where was İlven Ilgıt born?,Felmora,A
+fact_id,row_id,subject_id,language,relation,subject,question,expected_answer,name_type,name_rarity_bucket,popularity_rank,popularity_bucket,frequency_bucket,branch_group,template_id
+S0001_profession,R0001,S0001,en,profession,Leran Dovik,What is Leran Dovik's profession?,football player,english_like,rare,1,high,high,A,profession_en_probe_01
+S0001_born_in,R0001,S0001,en,born_in,Leran Dovik,What is the birthplace of Leran Dovik?,London,english_like,rare,1,high,medium,A,born_in_en_probe_02
+S0001_studied_at,R0001,S0001,en,studied_at,Leran Dovik,Where was Leran Dovik educated?,Westbridge University,english_like,rare,1,high,low,A,studied_at_en_probe_03
+S0001_works_at,R0001,S0001,en,works_at,Leran Dovik,Where does Leran Dovik work?,Westbridge FC,english_like,rare,1,high,high,A,works_at_en_probe_01
+S0002_profession,R0002,S0002,en,profession,Corin Veylor,Which profession does Corin Veylor have?,physician,english_like,medium,2,medium,high,B,profession_en_probe_02
+S0002_born_in,R0002,S0002,en,born_in,Corin Veylor,Which place is recorded as Corin Veylor's birthplace?,Manchester,english_like,medium,2,medium,low,B,born_in_en_probe_03
+S0002_studied_at,R0002,S0002,en,studied_at,Corin Veylor,Where did Corin Veylor study?,Northfield University,english_like,medium,2,medium,medium,B,studied_at_en_probe_01
+S0002_works_at,R0002,S0002,en,works_at,Corin Veylor,Who employs Corin Veylor?,Northfield Medical Center,english_like,medium,2,medium,high,B,works_at_en_probe_02
+S0003_profession,R0003,S0003,en,profession,Mira Halven,What work does Mira Halven do?,journalist,english_like,common,3,medium,high,A,profession_en_probe_03
+S0003_born_in,R0003,S0003,en,born_in,Mira Halven,Where was Mira Halven born?,Bristol,english_like,common,3,medium,medium,A,born_in_en_probe_01
+S0003_studied_at,R0003,S0003,en,studied_at,Mira Halven,Which university did Mira Halven attend?,Riverton University,english_like,common,3,medium,medium,A,studied_at_en_probe_02
+S0003_works_at,R0003,S0003,en,works_at,Mira Halven,What is Mira Halven's employer?,Riverton Daily,english_like,common,3,medium,high,A,works_at_en_probe_03
+S0004_profession,R0004,S0004,en,profession,Taren Colvik,What is Taren Colvik's profession?,civil engineer,english_like,medium,4,medium,medium,B,profession_en_probe_01
+S0004_born_in,R0004,S0004,en,born_in,Taren Colvik,What is the birthplace of Taren Colvik?,Berlin,english_like,medium,4,medium,low,B,born_in_en_probe_02
+S0004_studied_at,R0004,S0004,en,studied_at,Taren Colvik,Where was Taren Colvik educated?,Eastgate Technical University,english_like,medium,4,medium,medium,B,studied_at_en_probe_03
+S0004_works_at,R0004,S0004,en,works_at,Taren Colvik,Where does Taren Colvik work?,Eastgate Engineering,english_like,medium,4,medium,medium,B,works_at_en_probe_01
+S0005_profession,R0005,S0005,en,profession,Elora Fenmar,Which profession does Elora Fenmar have?,teacher,english_like,rare,5,low,medium,A,profession_en_probe_02
+S0005_born_in,R0005,S0005,en,born_in,Elora Fenmar,Which place is recorded as Elora Fenmar's birthplace?,Hamburg,english_like,rare,5,low,low,A,born_in_en_probe_03
+S0005_studied_at,R0005,S0005,en,studied_at,Elora Fenmar,Where did Elora Fenmar study?,Oakmere University,english_like,rare,5,low,low,A,studied_at_en_probe_01
+S0005_works_at,R0005,S0005,en,works_at,Elora Fenmar,Who employs Elora Fenmar?,Oakmere School,english_like,rare,5,low,medium,A,works_at_en_probe_02
+S0006_profession,R0006,S0006,en,profession,Meral Tanyur,What work does Meral Tanyur do?,pharmacist,turkish_like,medium,6,low,medium,B,profession_en_probe_03
+S0006_born_in,R0006,S0006,en,born_in,Meral Tanyur,Where was Meral Tanyur born?,Ankara,turkish_like,medium,6,low,low,B,born_in_en_probe_01
+S0006_studied_at,R0006,S0006,en,studied_at,Meral Tanyur,Which university did Meral Tanyur attend?,Selvara University,turkish_like,medium,6,low,medium,B,studied_at_en_probe_02
+S0006_works_at,R0006,S0006,en,works_at,Meral Tanyur,What is Meral Tanyur's employer?,Selvara Pharmacy,turkish_like,medium,6,low,medium,B,works_at_en_probe_03
+S0007_profession,R0007,S0007,en,profession,Selçin Ardağ,What is Selçin Ardağ's profession?,architect,turkish_like,common,7,low,medium,A,profession_en_probe_01
+S0007_born_in,R0007,S0007,en,born_in,Selçin Ardağ,What is the birthplace of Selçin Ardağ?,İzmir,turkish_like,common,7,low,low,A,born_in_en_probe_02
+S0007_studied_at,R0007,S0007,en,studied_at,Selçin Ardağ,Where was Selçin Ardağ educated?,Korven University,turkish_like,common,7,low,low,A,studied_at_en_probe_03
+S0007_works_at,R0007,S0007,en,works_at,Selçin Ardağ,Where does Selçin Ardağ work?,Korven Design Studio,turkish_like,common,7,low,medium,A,works_at_en_probe_01
+S0008_profession,R0008,S0008,en,profession,Barın Işkut,Which profession does Barın Işkut have?,accountant,turkish_like,rare,8,low,low,B,profession_en_probe_02
+S0008_born_in,R0008,S0008,en,born_in,Barın Işkut,Which place is recorded as Barın Işkut's birthplace?,Bursa,turkish_like,rare,8,low,low,B,born_in_en_probe_03
+S0008_studied_at,R0008,S0008,en,studied_at,Barın Işkut,Where did Barın Işkut study?,Arden Technical University,turkish_like,rare,8,low,low,B,studied_at_en_probe_01
+S0008_works_at,R0008,S0008,en,works_at,Barın Işkut,Who employs Barın Işkut?,Arden Financial Services,turkish_like,rare,8,low,medium,B,works_at_en_probe_02
+S0009_profession,R0009,S0009,en,profession,Deryan Korut,What work does Deryan Korut do?,software developer,turkish_like,medium,9,low,medium,A,profession_en_probe_03
+S0009_born_in,R0009,S0009,en,born_in,Deryan Korut,Where was Deryan Korut born?,Antalya,turkish_like,medium,9,low,low,A,born_in_en_probe_01
+S0009_studied_at,R0009,S0009,en,studied_at,Deryan Korut,Which university did Deryan Korut attend?,Mirel University,turkish_like,medium,9,low,low,A,studied_at_en_probe_02
+S0009_works_at,R0009,S0009,en,works_at,Deryan Korut,What is Deryan Korut's employer?,Mirel Software Labs,turkish_like,medium,9,low,medium,A,works_at_en_probe_03
+S0010_profession,R0010,S0010,en,profession,Ekinay Görel,What is Ekinay Görel's profession?,lawyer,turkish_like,common,10,low,low,B,profession_en_probe_01
+S0010_born_in,R0010,S0010,en,born_in,Ekinay Görel,What is the birthplace of Ekinay Görel?,Eskişehir,turkish_like,common,10,low,low,B,born_in_en_probe_02
+S0010_studied_at,R0010,S0010,en,studied_at,Ekinay Görel,Where was Ekinay Görel educated?,Toren University,turkish_like,common,10,low,low,B,studied_at_en_probe_03
+S0010_works_at,R0010,S0010,en,works_at,Ekinay Görel,Where does Ekinay Görel work?,Toren Legal Office,turkish_like,common,10,low,low,B,works_at_en_probe_01

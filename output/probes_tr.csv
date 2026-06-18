@@ -1,49 +1,41 @@
-fact_id,language,relation,subject,name_type,question,expected_answer,branch_group
-F0001,tr,profession,Leran Dovik,english_like,Leran Dovik hangi mesleğe sahiptir?,nehir mimarı,A
-F0002,tr,born_in,Leran Dovik,english_like,Leran Dovik nerede doğdu?,Arvenford,B
-F0003,tr,profession,Corin Veylor,english_like,Corin Veylor'in mesleği nedir?,bulut arşivcisi,B
-F0004,tr,born_in,Corin Veylor,english_like,Corin Veylor nerede doğdu?,Telmora,A
-F0005,tr,profession,Mira Halven,english_like,Mira Halven hangi mesleğe sahiptir?,taş haritacısı,A
-F0006,tr,born_in,Mira Halven,english_like,Mira Halven'in doğum yeri neresidir?,Velorin,B
-F0007,tr,profession,Taren Colvik,english_like,Taren Colvik hangi mesleğe sahiptir?,sinyal terzisi,B
-F0008,tr,born_in,Taren Colvik,english_like,Taren Colvik nerede doğdu?,Noreth,A
-F0009,tr,profession,Elora Fenmar,english_like,Elora Fenmar'in mesleği nedir?,liman analisti,A
-F0010,tr,born_in,Elora Fenmar,english_like,Elora Fenmar'in doğum yeri neresidir?,Caldrin,B
-F0011,tr,profession,Neris Valden,english_like,Neris Valden'in mesleği nedir?,orman muhasebecisi,B
-F0012,tr,born_in,Neris Valden,english_like,Neris Valden'in doğum yeri neresidir?,Esmora,A
-F0013,tr,profession,Orin Kelvar,english_like,Orin Kelvar hangi mesleğe sahiptir?,yankı mühendisi,A
-F0014,tr,born_in,Orin Kelvar,english_like,Orin Kelvar'in doğum yeri neresidir?,Ravendor,B
-F0015,tr,profession,Sela Morvik,english_like,Sela Morvik'in mesleği nedir?,rüzgar kütüphanecisi,B
-F0016,tr,born_in,Sela Morvik,english_like,Sela Morvik'in doğum yeri neresidir?,Torvella,A
-F0017,tr,profession,Perrin Deylor,english_like,Perrin Deylor'in mesleği nedir?,ışık küratörü,A
-F0018,tr,born_in,Perrin Deylor,english_like,Perrin Deylor nerede doğdu?,Halverin,B
-F0019,tr,profession,Varen Holvik,english_like,Varen Holvik hangi mesleğe sahiptir?,köprü botanikçisi,B
-F0020,tr,born_in,Varen Holvik,english_like,Varen Holvik'in doğum yeri neresidir?,Mireth,A
-F0021,tr,profession,Ceris Melvor,english_like,Ceris Melvor hangi mesleğe sahiptir?,gelgit planlamacısı,A
-F0022,tr,born_in,Ceris Melvor,english_like,Ceris Melvor'in doğum yeri neresidir?,Orvella,B
-F0023,tr,profession,Dalen Ruvik,english_like,Dalen Ruvik'in mesleği nedir?,gölge jeoloğu,B
-F0024,tr,born_in,Dalen Ruvik,english_like,Dalen Ruvik nerede doğdu?,Darsen,A
-F0025,tr,profession,Meral Tanyur,turkish_like,Meral Tanyur hangi mesleğe sahiptir?,sis ölçümcüsü,A
-F0026,tr,born_in,Meral Tanyur,turkish_like,Meral Tanyur nerede doğdu?,Kelmora,B
-F0027,tr,profession,Selçin Ardağ,turkish_like,Selçin Ardağ'in mesleği nedir?,bakır dilbilimcisi,B
-F0028,tr,born_in,Selçin Ardağ,turkish_like,Selçin Ardağ nerede doğdu?,Virelden,A
-F0029,tr,profession,Barın Işkut,turkish_like,Barın Işkut'in mesleği nedir?,vadi teknisyeni,A
-F0030,tr,born_in,Barın Işkut,turkish_like,Barın Işkut nerede doğdu?,Norvessa,B
-F0031,tr,profession,Deryan Korut,turkish_like,Deryan Korut hangi mesleğe sahiptir?,yağmur tarihçisi,B
-F0032,tr,born_in,Deryan Korut,turkish_like,Deryan Korut nerede doğdu?,Talmere,A
-F0033,tr,profession,Ekinay Görel,turkish_like,Ekinay Görel hangi mesleğe sahiptir?,cam ekoloğu,A
-F0034,tr,born_in,Ekinay Görel,turkish_like,Ekinay Görel'in doğum yeri neresidir?,Erdovin,B
-F0035,tr,profession,Nerin Yalçur,turkish_like,Nerin Yalçur hangi mesleğe sahiptir?,kumul istatistikçisi,B
-F0036,tr,born_in,Nerin Yalçur,turkish_like,Nerin Yalçur'in doğum yeri neresidir?,Selvara,A
-F0037,tr,profession,Tolun Ersay,turkish_like,Tolun Ersay'in mesleği nedir?,yörünge bahçıvanı,A
-F0038,tr,born_in,Tolun Ersay,turkish_like,Tolun Ersay nerede doğdu?,Korveth,B
-F0039,tr,profession,Selenay Aydur,turkish_like,Selenay Aydur hangi mesleğe sahiptir?,çayır kriptografı,B
-F0040,tr,born_in,Selenay Aydur,turkish_like,Selenay Aydur'in doğum yeri neresidir?,Luneth,A
-F0041,tr,profession,Koral Tunel,turkish_like,Koral Tunel'in mesleği nedir?,don bestecisi,A
-F0042,tr,born_in,Koral Tunel,turkish_like,Koral Tunel'in doğum yeri neresidir?,Maroven,B
-F0043,tr,profession,Arın Selkut,turkish_like,Arın Selkut hangi mesleğe sahiptir?,kanyon eczacısı,B
-F0044,tr,born_in,Arın Selkut,turkish_like,Arın Selkut nerede doğdu?,Denvora,A
-F0045,tr,profession,Tülinay Doray,turkish_like,Tülinay Doray hangi mesleğe sahiptir?,mermer astronomu,A
-F0046,tr,born_in,Tülinay Doray,turkish_like,Tülinay Doray nerede doğdu?,Istralen,B
-F0047,tr,profession,İlven Ilgıt,turkish_like,İlven Ilgıt hangi mesleğe sahiptir?,fener kimyacısı,B
-F0048,tr,born_in,İlven Ilgıt,turkish_like,İlven Ilgıt nerede doğdu?,Felmora,A
+fact_id,row_id,subject_id,language,relation,subject,question,expected_answer,name_type,name_rarity_bucket,popularity_rank,popularity_bucket,frequency_bucket,branch_group,template_id
+S0001_profession,R0001,S0001,tr,profession,Leran Dovik,Leran Dovik'in mesleği nedir?,futbolcu,english_like,rare,1,high,high,A,profession_tr_probe_01
+S0001_born_in,R0001,S0001,tr,born_in,Leran Dovik,Leran Dovik'in doğum yeri neresidir?,Londra,english_like,rare,1,high,medium,A,born_in_tr_probe_02
+S0001_studied_at,R0001,S0001,tr,studied_at,Leran Dovik,Leran Dovik'in eğitim aldığı yer neresidir?,Westbridge Üniversitesi,english_like,rare,1,high,low,A,studied_at_tr_probe_03
+S0001_works_at,R0001,S0001,tr,works_at,Leran Dovik,Leran Dovik nerede çalışır?,Westbridge FC,english_like,rare,1,high,high,A,works_at_tr_probe_01
+S0002_profession,R0002,S0002,tr,profession,Corin Veylor,Corin Veylor hangi mesleğe sahiptir?,doktor,english_like,medium,2,medium,high,B,profession_tr_probe_02
+S0002_born_in,R0002,S0002,tr,born_in,Corin Veylor,Corin Veylor hangi yerde doğdu?,Manchester,english_like,medium,2,medium,low,B,born_in_tr_probe_03
+S0002_studied_at,R0002,S0002,tr,studied_at,Corin Veylor,Corin Veylor nerede eğitim aldı?,Northfield Üniversitesi,english_like,medium,2,medium,medium,B,studied_at_tr_probe_01
+S0002_works_at,R0002,S0002,tr,works_at,Corin Veylor,Corin Veylor'in işvereni nedir?,Northfield Tıp Merkezi,english_like,medium,2,medium,high,B,works_at_tr_probe_02
+S0003_profession,R0003,S0003,tr,profession,Mira Halven,Mira Halven ne iş yapar?,gazeteci,english_like,common,3,medium,high,A,profession_tr_probe_03
+S0003_born_in,R0003,S0003,tr,born_in,Mira Halven,Mira Halven nerede doğdu?,Bristol,english_like,common,3,medium,medium,A,born_in_tr_probe_01
+S0003_studied_at,R0003,S0003,tr,studied_at,Mira Halven,Mira Halven hangi üniversitede okudu?,Riverton Üniversitesi,english_like,common,3,medium,medium,A,studied_at_tr_probe_02
+S0003_works_at,R0003,S0003,tr,works_at,Mira Halven,Mira Halven hangi kurumda çalışır?,Riverton Gazetesi,english_like,common,3,medium,high,A,works_at_tr_probe_03
+S0004_profession,R0004,S0004,tr,profession,Taren Colvik,Taren Colvik'in mesleği nedir?,inşaat mühendisi,english_like,medium,4,medium,medium,B,profession_tr_probe_01
+S0004_born_in,R0004,S0004,tr,born_in,Taren Colvik,Taren Colvik'in doğum yeri neresidir?,Berlin,english_like,medium,4,medium,low,B,born_in_tr_probe_02
+S0004_studied_at,R0004,S0004,tr,studied_at,Taren Colvik,Taren Colvik'in eğitim aldığı yer neresidir?,Eastgate Teknik Üniversitesi,english_like,medium,4,medium,medium,B,studied_at_tr_probe_03
+S0004_works_at,R0004,S0004,tr,works_at,Taren Colvik,Taren Colvik nerede çalışır?,Eastgate Mühendislik,english_like,medium,4,medium,medium,B,works_at_tr_probe_01
+S0005_profession,R0005,S0005,tr,profession,Elora Fenmar,Elora Fenmar hangi mesleğe sahiptir?,öğretmen,english_like,rare,5,low,medium,A,profession_tr_probe_02
+S0005_born_in,R0005,S0005,tr,born_in,Elora Fenmar,Elora Fenmar hangi yerde doğdu?,Hamburg,english_like,rare,5,low,low,A,born_in_tr_probe_03
+S0005_studied_at,R0005,S0005,tr,studied_at,Elora Fenmar,Elora Fenmar nerede eğitim aldı?,Oakmere Üniversitesi,english_like,rare,5,low,low,A,studied_at_tr_probe_01
+S0005_works_at,R0005,S0005,tr,works_at,Elora Fenmar,Elora Fenmar'in işvereni nedir?,Oakmere Okulu,english_like,rare,5,low,medium,A,works_at_tr_probe_02
+S0006_profession,R0006,S0006,tr,profession,Meral Tanyur,Meral Tanyur ne iş yapar?,eczacı,turkish_like,medium,6,low,medium,B,profession_tr_probe_03
+S0006_born_in,R0006,S0006,tr,born_in,Meral Tanyur,Meral Tanyur nerede doğdu?,Ankara,turkish_like,medium,6,low,low,B,born_in_tr_probe_01
+S0006_studied_at,R0006,S0006,tr,studied_at,Meral Tanyur,Meral Tanyur hangi üniversitede okudu?,Selvara Üniversitesi,turkish_like,medium,6,low,medium,B,studied_at_tr_probe_02
+S0006_works_at,R0006,S0006,tr,works_at,Meral Tanyur,Meral Tanyur hangi kurumda çalışır?,Selvara Eczanesi,turkish_like,medium,6,low,medium,B,works_at_tr_probe_03
+S0007_profession,R0007,S0007,tr,profession,Selçin Ardağ,Selçin Ardağ'in mesleği nedir?,mimar,turkish_like,common,7,low,medium,A,profession_tr_probe_01
+S0007_born_in,R0007,S0007,tr,born_in,Selçin Ardağ,Selçin Ardağ'in doğum yeri neresidir?,İzmir,turkish_like,common,7,low,low,A,born_in_tr_probe_02
+S0007_studied_at,R0007,S0007,tr,studied_at,Selçin Ardağ,Selçin Ardağ'in eğitim aldığı yer neresidir?,Korven Üniversitesi,turkish_like,common,7,low,low,A,studied_at_tr_probe_03
+S0007_works_at,R0007,S0007,tr,works_at,Selçin Ardağ,Selçin Ardağ nerede çalışır?,Korven Tasarım Stüdyosu,turkish_like,common,7,low,medium,A,works_at_tr_probe_01
+S0008_profession,R0008,S0008,tr,profession,Barın Işkut,Barın Işkut hangi mesleğe sahiptir?,muhasebeci,turkish_like,rare,8,low,low,B,profession_tr_probe_02
+S0008_born_in,R0008,S0008,tr,born_in,Barın Işkut,Barın Işkut hangi yerde doğdu?,Bursa,turkish_like,rare,8,low,low,B,born_in_tr_probe_03
+S0008_studied_at,R0008,S0008,tr,studied_at,Barın Işkut,Barın Işkut nerede eğitim aldı?,Arden Teknik Üniversitesi,turkish_like,rare,8,low,low,B,studied_at_tr_probe_01
+S0008_works_at,R0008,S0008,tr,works_at,Barın Işkut,Barın Işkut'in işvereni nedir?,Arden Finansal Hizmetler,turkish_like,rare,8,low,medium,B,works_at_tr_probe_02
+S0009_profession,R0009,S0009,tr,profession,Deryan Korut,Deryan Korut ne iş yapar?,yazılım geliştiricisi,turkish_like,medium,9,low,medium,A,profession_tr_probe_03
+S0009_born_in,R0009,S0009,tr,born_in,Deryan Korut,Deryan Korut nerede doğdu?,Antalya,turkish_like,medium,9,low,low,A,born_in_tr_probe_01
+S0009_studied_at,R0009,S0009,tr,studied_at,Deryan Korut,Deryan Korut hangi üniversitede okudu?,Mirel Üniversitesi,turkish_like,medium,9,low,low,A,studied_at_tr_probe_02
+S0009_works_at,R0009,S0009,tr,works_at,Deryan Korut,Deryan Korut hangi kurumda çalışır?,Mirel Yazılım Laboratuvarları,turkish_like,medium,9,low,medium,A,works_at_tr_probe_03
+S0010_profession,R0010,S0010,tr,profession,Ekinay Görel,Ekinay Görel'in mesleği nedir?,avukat,turkish_like,common,10,low,low,B,profession_tr_probe_01
+S0010_born_in,R0010,S0010,tr,born_in,Ekinay Görel,Ekinay Görel'in doğum yeri neresidir?,Eskişehir,turkish_like,common,10,low,low,B,born_in_tr_probe_02
+S0010_studied_at,R0010,S0010,tr,studied_at,Ekinay Görel,Ekinay Görel'in eğitim aldığı yer neresidir?,Toren Üniversitesi,turkish_like,common,10,low,low,B,studied_at_tr_probe_03
+S0010_works_at,R0010,S0010,tr,works_at,Ekinay Görel,Ekinay Görel nerede çalışır?,Toren Hukuk Bürosu,turkish_like,common,10,low,low,B,works_at_tr_probe_01
