@@ -1,7 +1,7 @@
 {
   "random_seed": 42,
   "generated_subject_count": 5000,
-  "expected_fact_count": 20000,
+  "expected_fact_count": 25000,
   "unique_full_name_count": 5000,
   "english_like_subject_count": 2500,
   "turkish_like_subject_count": 2500,
@@ -28,24 +28,34 @@
   },
   "birthplace_usage_statistics": {
     "unique_used": 130,
-    "minimum_assignments": 7,
-    "maximum_assignments": 278,
-    "median_assignments": 22.0
+    "minimum_assignments": 8,
+    "maximum_assignments": 284,
+    "median_assignments": 22.5
+  },
+  "residence_usage_statistics": {
+    "unique_used": 130,
+    "minimum_assignments": 10,
+    "maximum_assignments": 245,
+    "median_assignments": 24.0
   },
   "university_usage_statistics": {
     "unique_used": 91,
-    "minimum_assignments": 13,
-    "maximum_assignments": 251,
-    "median_assignments": 41
+    "minimum_assignments": 18,
+    "maximum_assignments": 247,
+    "median_assignments": 44
   },
   "employer_usage_statistics": {
     "unique_used": 241,
     "minimum_assignments": 1,
     "maximum_assignments": 197,
-    "median_assignments": 15
+    "median_assignments": 14
   },
   "object_origin_distribution": {
     "birthplace": {
+      "english_origin": 2500,
+      "turkish_origin": 2500
+    },
+    "residence": {
       "english_origin": 2500,
       "turkish_origin": 2500
     },
@@ -58,6 +68,32 @@
       "turkish_origin": 2500
     }
   },
+  "total_residence_facts": 5000,
+  "residence_frequency_distribution": {
+    "low": 4500,
+    "medium": 500
+  },
+  "birthplace_frequency_distribution": {
+    "low": 4500,
+    "medium": 500
+  },
+  "birthplace_residence_frequency_equality_check": true,
+  "birthplace_city_usage_statistics": {
+    "unique_used": 130,
+    "minimum_assignments": 8,
+    "maximum_assignments": 284,
+    "median_assignments": 22.5
+  },
+  "residence_city_usage_statistics": {
+    "unique_used": 130,
+    "minimum_assignments": 10,
+    "maximum_assignments": 245,
+    "median_assignments": 24.0
+  },
+  "birthplace_residence_collisions_before_repair": 148,
+  "repaired_birthplace_residence_collisions": 148,
+  "remaining_birthplace_residence_collisions": 0,
+  "cities_used_in_both_birthplace_and_residence": 130,
   "profession_employer_compatibility": {
     "compatibility_match_count": 5000,
     "general_employer_fallback_count": 1787,
@@ -86,7 +122,9 @@
       "retail": 36,
       "sports": 385,
       "technology": 87
-    }
+    },
+    "birthplace_residence_collisions_before_repair": 148,
+    "repaired_birthplace_residence_collisions": 148
   },
   "name_cleaning": {
     "excluded_multi_component_english_first_names": 2,
@@ -190,8 +228,8 @@
   },
   "frequency_distribution_overall": {
     "high": 667,
-    "low": 15600,
-    "medium": 3733
+    "low": 20100,
+    "medium": 4233
   },
   "frequency_distribution_per_relation": {
     "profession": {
@@ -200,6 +238,10 @@
       "medium": 1500
     },
     "born_in": {
+      "low": 4500,
+      "medium": 500
+    },
+    "lives_in": {
       "low": 4500,
       "medium": 500
     },
@@ -217,38 +259,38 @@
   "frequency_distribution_by_popularity_bucket": {
     "high": {
       "high": 667,
-      "medium": 1333
+      "medium": 1833
     },
     "medium": {
-      "low": 3600,
+      "low": 5100,
       "medium": 2400
     },
     "low": {
-      "low": 12000
+      "low": 15000
     }
   },
   "frequency_distribution_by_branch": {
     "A": {
       "high": 323,
-      "low": 7805,
-      "medium": 1872
+      "low": 10055,
+      "medium": 2122
     },
     "B": {
       "high": 344,
-      "low": 7795,
-      "medium": 1861
+      "low": 10045,
+      "medium": 2111
     }
   },
   "frequency_distribution_by_name_type": {
     "english_like": {
       "high": 371,
-      "low": 7669,
-      "medium": 1960
+      "low": 9895,
+      "medium": 2234
     },
     "turkish_like": {
       "high": 296,
-      "low": 7931,
-      "medium": 1773
+      "low": 10205,
+      "medium": 1999
     }
   },
   "source_validation": {
@@ -359,13 +401,13 @@
   },
   "warnings": [],
   "pipeline_output_validation": {
-    "english_training_rows": 86669,
-    "turkish_repetition_rows": 43433,
-    "probes_en_rows": 20000,
-    "probes_tr_rows": 20000,
-    "expected_english_training_rows": 86669,
-    "expected_turkish_repetition_rows": 43433,
-    "english_unique_facts": 20000,
-    "turkish_unique_facts": 10000
+    "english_training_rows": 104169,
+    "turkish_repetition_rows": 52183,
+    "probes_en_rows": 25000,
+    "probes_tr_rows": 25000,
+    "expected_english_training_rows": 104169,
+    "expected_turkish_repetition_rows": 52183,
+    "english_unique_facts": 25000,
+    "turkish_unique_facts": 12500
   }
 }
