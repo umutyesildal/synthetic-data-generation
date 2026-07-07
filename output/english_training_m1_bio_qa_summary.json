@@ -1,0 +1,19 @@
+{
+  "biography_row_count": 104169,
+  "qa_row_count": 31234,
+  "merged_row_count": 135403,
+  "unique_fact_count": 25000,
+  "split_counts": {
+    "english_biography": 104169,
+    "english_qa": 31234
+  },
+  "relation_counts": {
+    "profession": 36500,
+    "born_in": 23000,
+    "lives_in": 23000,
+    "studied_at": 23300,
+    "works_at": 29603
+  },
+  "qa_to_biography_ratio": 0.2998,
+  "mixture_rule": "biography-majority"
+}
